@@ -27,6 +27,10 @@ h1 {
   font-weight: bold;
 }
 
+#unit-input::placeholder {
+  color: #ffffff;
+}
+
 button {
   background-color: #ffffff;
   border: none;
