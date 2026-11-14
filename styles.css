@@ -14,11 +14,17 @@ h1 {
   margin-bottom: 26px;
 }
 
-h2 {
+#unit-input {
+  font-family: Inter, sans-serif;
   font-size: 40px;
   padding: 8px 20px;
   border: 1px solid #ffffff;
   margin-bottom: 26px;
+  width: 90px;
+  background-color: #6943ff;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
 }
 
 button {
