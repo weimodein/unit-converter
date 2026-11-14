@@ -51,3 +51,5 @@ function renderVolumeConversion(unit, gallonsOutput, litersOutput) {
 function renderMassConversion(unit, poundsOutput, kilosOutput) {
   massOutput.innerHTML = `${unit} kilos = ${poundsOutput.toFixed(3)} pounds | ${unit} pounds = ${kilosOutput.toFixed(3)} kilos `;
 }
+
+// TO DO: Refactor to improve the code quality
