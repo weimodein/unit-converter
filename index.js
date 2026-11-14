@@ -11,8 +11,13 @@ const volumeOutput = document.getElementById("volume-output");
 const massOutput = document.getElementById("mass-output");
 
 convertBtn.addEventListener("click", () => {
-  unit = Number(unitInput.value);
-  calculateConversion(unit);
+  const unit = Number(unitInput.value);
+  if (unit) {
+    calculateConversion(unit);
+  } else {
+    window.alert("Invalid Input");
+    unitInput.value = "";
+  }
 });
 
 function calculateConversion(unit) {
